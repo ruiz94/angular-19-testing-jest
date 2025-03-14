@@ -60,14 +60,20 @@ yarn add -D testing-library @testing-library/angular @testing-library/dom @testi
 ## Install types for Testing Library
 
 ```bash
-yarn add @types/test ing-library__jest-dom
+yarn add -D @types/test ing-library__jest-dom
 ```
 
 ## Install Jest
 
 ```bash
-yarn add jest jest-preset-angular
+yarn add -D jest jest-preset-angular
 ```
+### Install Jest globals
+
+```bash
+yarn add -D @jest/globals
+```
+
 ## Running end-to-end tests
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
@@ -80,11 +86,6 @@ For end-to-end (e2e) testing, run:
 ```bash
 ng e2e
 ```
-
-```bash 
-ng e2e 
-```
-
-and select **Playwright** option  
-Schematics: Yes  
-Install Playwright browsers: Yes  
+- and select **Playwright** option  
+- Schematics: Yes  
+- Install Playwright browsers: Yes  
