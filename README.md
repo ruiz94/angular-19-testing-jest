@@ -57,3 +57,39 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+# Cleaning the project 
+
+## removing Karma and Jasmine 
+
+```bash
+yarn remove karma karma-chrome-launcher karma-coverage karma-jasmine karma-jasmine-html-reporter @types/jasmine
+```
+
+# Install Testing Library
+
+```bash
+yarn add -D testing-library @testing-library/angular @testing-library/dom @testing-library/jest-dom @testing-library/user-event 
+```
+
+## Install types for Testing Library
+
+```bash
+yarn add @types/test ing-library__jest-dom
+```
+
+## Install Jest
+
+```bash
+yarn add jest jest-preset-angular
+```
+## In order to install playwright in Angular we must run 
+https://playwright.dev/
+
+```bash 
+ng e2e 
+```
+
+and select ** Playwright ** option
+Schematics: Yes
+Install Playwright browsers: Yes
