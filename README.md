@@ -57,10 +57,10 @@ yarn remove karma karma-chrome-launcher karma-coverage karma-jasmine karma-jasmi
 yarn add -D testing-library @testing-library/angular @testing-library/dom @testing-library/jest-dom @testing-library/user-event 
 ```
 
-## Install types for Testing Library
+## Install types for Testing Library and Jest
 
 ```bash
-yarn add -D @types/test ing-library__jest-dom
+yarn add -D @types/test ing-library__jest-dom @types/jest
 ```
 
 ## Install Jest
@@ -68,6 +68,7 @@ yarn add -D @types/test ing-library__jest-dom
 ```bash
 yarn add -D jest jest-preset-angular
 ```
+
 ### Install Jest globals
 
 ```bash
